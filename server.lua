@@ -1,6 +1,6 @@
 ESX                			 = nil
 
-TriggerEvent('esx:getShGeGenesisRParedObjGeGenesisRPect', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 
 RegisterCommand('msg', function(source, args, raw)
