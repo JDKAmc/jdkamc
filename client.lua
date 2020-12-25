@@ -1,5 +1,5 @@
 ESX                             = nil
-local msg						= ''
+local msg			= ''
 
 Citizen.CreateThread(function()
 	while ESX == nil do
